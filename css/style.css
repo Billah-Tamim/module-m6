@@ -1,0 +1,118 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Work Sans', sans-serif;
+}
+.common-btn{
+    padding: 12px 20px;
+    color: #FFFFFF;
+    font-weight: 600;
+    border-radius: 8px;
+    background-color: #E55473;
+    font-size: 20px;
+    border: none;
+}
+
+header{
+    background-color: rgb(299, 84, 115, 10%);
+    padding-top: 50px;
+    padding: 50px 200px 0px 200px;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 100px;
+}
+.banner-image> img{
+    width: 100%;
+}
+.banner-details{
+    width: 70%;
+}
+.banner-details> h1{
+    font-size: 50px;
+    color: #272727;
+}
+/* featured */
+.featured{
+    text-align: center;
+    margin: 100px 200px;
+}
+.featured-container{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.featured-item{
+    height: 500px;
+    width: 400px;
+}
+.featured-img> img{
+    margin-top: 100px;
+    width: 20vw;
+    height: 50vh;
+}
+.featured-img{
+    background-color: rgb(71, 125, 17, 15%);
+    border-radius: 150px 150px 0px 0px;
+    margin-bottom: 30px;
+}
+/* extra */
+.extra{
+    margin: 100px 200px;
+    background-color: rgb(39, 39, 39, 5%);
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+    text-align: center;
+}
+
+.off{
+    background-color: rgb(299, 84, 115, 5%);
+    padding: 50px 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    text-align: center;
+}
+.instagram{
+    margin: 100px 200px;
+    text-align: center;
+}
+.insta-img{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    
+}
+.insta-img> img{
+    width: 22%;
+}
+
+.subscribe{
+    text-align: center;
+    background-image: url("../Flower Asset/Rectangle\ 9.png");
+    padding: 100px 0;
+}
+.subscribe > input{
+    padding: 12px 20px;
+    width: 40%;
+}
+/* footer */
+footer{
+    background-color: #111010;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 100px 0;
+}
+.foot-details{
+    width: 40%;
+    margin: auto;
+}
+.foot-details span{
+    color: #E55473;
+}
